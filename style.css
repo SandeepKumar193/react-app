@@ -152,62 +152,10 @@ body{
     
   }
 /*responsiveness (min-width: 00px) and (max-width: 480px)  */
-  @media screen and (min-width:500px) {
-    .android{
-      display: none;
+   @media (min-width: 00px) and (max-width: 680px){
+    body{
+      background-color:#e7eff4;
     }
-    .laptop-pic{
-      display: block;
-    }
-  }
-  @media screen and (max-width:768px){
-    html{
-      font-size: 85%;
-    }
-  }
-  @media screen and (max-width:435px){
-  .android{
-    display: block;
-    margin-top: 1rem;
-  }
-  .laptop-pic{
-    display: none;
-  }
-  html{
-    font-size: 240%;
-  }
-   .Rpa{
-    width:35.5rem;
-  }
-  h4{
-    padding-left: 0.2rem;
-    margin-bottom: 0;
-    margin-top: 3rem;
-  }
-  h3{
-    padding-top: 0.8rem;
-  }
-  h2{
-    padding-top: 2rem;
-  }
-  .app-pic{
-    width:95%;
-  }
-  .picture{
-    width:95%;
-  }
-  .picture1{
-    width:95%;
-  }
-  .first{
-    margin-left: 4.5rem;
-  } 
-  p{
-    color:rgb(0, 81, 255);
-  }
-  }
-  
-   @media screen and (max-width:380px){
     .android{
       display: block;
       margin-top: 1rem;
@@ -216,14 +164,10 @@ body{
       display: none;
     }
     html{
-      font-size: 210%;
-    }
-    .Rpa{
-      width:35.5rem;
+      font-size: 170%;
     }
     h4{
       padding-left: 0.2rem;
-      margin-bottom: 0;
       margin-top: 3rem;
     }
     h3{
@@ -232,62 +176,46 @@ body{
     h2{
       padding-top: 2rem;
     }
+    .mouse{
+      cursor: pointer;
+      margin-top:10px;
+    }
+    .head-arrow{
+     height: 100px;
+    }
     .app-pic{
-      width:95%;
+      width:100%;
     }
     .picture{
-      width:95%;
+      width:100%;
     }
     .picture1{
-      width:95%;
+      width:100%;
     }
     .first{
-      margin-left: 4.5rem;
+      margin-left: 4.1rem;
     }
     p{
-      color:rgb(0, 81, 255);
+      color:rgb(0, 80, 255);
     }
-  } 
-  
-  @media screen and (max-width:340px){
+  }
+  /*(min-width: 481px) and (max-width: 1200px)*/
+  @media (min-width: 681px) and (max-width: 1200px) {
+   html{
+      font-size: 15px;
+    }
     .android{
-      display: block;
+      display:none;
       margin-top: 1rem;
     }
     .laptop-pic{
-      display: none;
+      display: block;
     }
-    html{
-      font-size: 180%;
+  }
+  /*(min-width: 1201px) and (max-width: 1600px)*/
+ @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color:#e7eff4;
     }
-    .Rpa{
-      width:35.5rem;
-    }
-    h4{
-      padding-left: 0.2rem;
-      margin-bottom: 0;
-      margin-top: 3rem;
-    }
-    h3{
-      padding-top: 0.8rem;
-    }
-    h2{
-      padding-top: 2rem;
-    }
-    .app-pic{
-      width:95%;
-    }
-    .picture{
-      width:95%;
-    }
-    .picture1{
-      width:95%;
-    }
-    .first{
-      margin-left: 4rem;
-    }
-    p{
-      color:rgb(0, 81, 255);
-    }
-  } 
+  }
   
