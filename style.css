@@ -5,14 +5,13 @@ body{
   .container{
     width: 77rem;
     font-family: Hi Melody, cursive;
-
-    }
+  }
+  /*lets collaborate*/
   .Lc{
     width:85%;
     font-family: Roboto Slab, serif;
     margin-left: 6rem;
     padding-bottom: 4rem;
-
   }
   h4{
     font-size: 1.5rem;
@@ -30,7 +29,9 @@ body{
     display: flex;
     flex-direction: row;
   }
-  .Ai{
+
+/*android-data-pic*/
+  .adp{
     padding-right: 6rem;
     width: 40%;
     font-family: Roboto Slab, serif;
@@ -56,13 +57,12 @@ body{
     padding-bottom: 0.6rem;
     font-weight: 450;
   }
-  .Rpa{
+/*header+arrow*/
+  .head-arrow{
     display: flex;
     flex-direction: row;
     height: 50px;
-    
-
-   }
+    }
   p{
     font-size: 1.3rem;
     font-weight: bolder;
@@ -82,11 +82,11 @@ body{
     height: 20rem;
   }
   .app-pic{
-    width:33.19125rem;
+    width:33.2rem;
     height: 20rem;
   }
-  .image-ns{
-    width:33.19125rem;
+  .picture1{
+    width:33.2rem;
     height: 20rem;
   }
   .android{
@@ -102,50 +102,7 @@ body{
     transition: transform 1.2s;
     transform-style: preserve-3d;
   }
-  .laptop:hover .laptop-pic{
-    transform: rotateY(180deg);
-  }
-  
-  @media screen and (max-width:400px){
-    .android{
-      display: block;
-      margin-top: 1rem;
-    }
-    .laptop-pic{
-      display: none;
-    }
-    html{
-      font-size: 180%;
-    }
-    .Rpa{
-      width:35.5rem;
-    }
-    h4{
-      padding-left: 0.2rem;
-      margin-top: 3rem;
-    }
-    h3{
-      padding-top: 0.8rem;
-    }
-    h2{
-      padding-top: 2rem;
-    }
-    .app-pic{
-      width:95%;
-    }
-    .picture{
-      width:95%;
-    }
-    .picture1{
-      width:95%;
-    }
-    .first{
-      margin-left: 4rem;
-    }
-    p{
-      color:rgb(0, 81, 255);
-    }
-  } 
+ /* this page load slowly*/
   .block-1{
     animation: slide-up 0.5s ease-in;
   }
@@ -158,6 +115,7 @@ body{
   .block-4{
     animation: slide-up 1.6s ease-in;
   }
+  
   .dark-mode{
      background-color:#212529;
     border-color: aliceblue;
@@ -176,7 +134,12 @@ body{
   button{
     padding: 1rem;
     margin: 100px;
-     }
+  }
+/*rotate pics*/
+  .laptop:hover .laptop-pic{
+      transform: rotateY(180deg);
+  }
+/*slide up*/   
   @keyframes slide-up {
     from{
       opacity: 0.5;
@@ -188,5 +151,70 @@ body{
     }
     
   }
-  /*extra*/
-  
+/*responsiveness (min-width: 00px) and (max-width: 480px)  */
+  @media (min-width: 00px) and (max-width: 480px){
+    body{
+      background-color:#e7eff4;
+    }
+    .android{
+      display: block;
+      margin-top: 1rem;
+    }
+    .laptop-pic{
+      display: none;
+    }
+    html{
+      font-size: 170%;
+    }
+    h4{
+      padding-left: 0.2rem;
+      margin-top: 3rem;
+    }
+    h3{
+      padding-top: 0.8rem;
+    }
+    h2{
+      padding-top: 2rem;
+    }
+    .mouse{
+      cursor: pointer;
+      margin-top:10px;
+    }
+    .head-arrow{
+     height: 100px;
+    }
+    .app-pic{
+      width:100%;
+    }
+    .picture{
+      width:100%;
+    }
+    .picture1{
+      width:100%;
+    }
+    .first{
+      margin-left: 4.1rem;
+    }
+    p{
+      color:rgb(0, 80, 255);
+    }
+  }
+  /*(min-width: 481px) and (max-width: 1200px)*/
+  @media (min-width: 481px) and (max-width: 1200px) {
+   html{
+      font-size: 15px;
+    }
+    .android{
+      display: none;
+      margin-top: 1rem;
+    }
+    .laptop-pic{
+      display: block;
+    }
+  }
+  /*(min-width: 1201px) and (max-width: 1600px)*/
+ @media (min-width: 1201px) and (max-width: 1600px) {
+    body {
+      background-color:#e7eff4;
+    }
+  }
