@@ -149,7 +149,7 @@ button{
   
 }
 /*responsiveness (min-width: 00px) and (max-width: 480px)  */
- @media (min-width: 00px) and (max-width: 900px){
+ @media (min-width: 00px) and (max-width: 1020px){
   body{
     background-color:#e7eff4;
   }
@@ -200,7 +200,7 @@ button{
   }
   }
 /*(min-width: 481px) and (max-width: 1200px)*/
-@media (min-width: 1001px) and (max-width: 1200px) {
+@media (min-width: 1021px) and (max-width: 1200px) {
  html{
     font-size: 15px;
   }
