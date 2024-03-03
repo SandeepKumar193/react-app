@@ -152,7 +152,7 @@ body{
     
   }
 /*responsiveness (min-width: 00px) and (max-width: 480px)  */
-  @media (min-width: 00px) and (max-width: 360px){
+  @media (min-width: 00px) and (max-width: 460px){
     body{
       background-color:#e7eff4;
     }
